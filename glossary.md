@@ -3,7 +3,13 @@
 <details>
   <summary><b>Cluster</b></summary>
   
-    a group of nodes managed by control plane components where a desired state is maintained and workloads are run.
+    a group of nodes, managed by control plane components, where a desired state is maintained and workloads are run.
+</details>
+
+<details>
+  <summary><b>Control Plane</b></summary>
+  
+    runs the API server, scheduler, controller manager, etcd. These components maintain cluster state, schedule workloads, and ensure cluster resources match the desired state.
 </details>
 
 <details>
@@ -15,6 +21,6 @@
 <details>
   <summary><b>Node</b></summary>
   
-    a Node is a physical or virtual machine registered with a Kubernetes cluster that runs kubelet and other node components, and may run Pods.
+    a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
 </details>
 
