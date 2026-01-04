@@ -24,3 +24,9 @@
     a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
 </details>
 
+<details>
+  <summary><b>Worker Node</b></summary>
+  
+    a node that runs the kubelet, the container runtime, and is responsible for running application Pods which have been scheduled by the control plane.
+</details>
+
