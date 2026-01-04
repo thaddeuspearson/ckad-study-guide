@@ -19,6 +19,12 @@
 </details>
 
 <details>
+  <summary><b>Pod</b></summary>
+  
+   the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
+</details>
+
+<details>
   <summary><b>Node</b></summary>
   
     a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
