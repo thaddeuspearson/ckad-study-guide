@@ -27,6 +27,14 @@
 <br>
 
 <details>
+  <summary><u><b>Kubelet</b></u>: <i>local node agent that runs / monitors pods</i></summary>
+    
+    a per-node agent that runs and monitors assigned Pods, reconciling their state with PodSpecs received via streams from the API server.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
     
     the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
