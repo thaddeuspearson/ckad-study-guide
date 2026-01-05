@@ -59,6 +59,14 @@
 <br>
 
 <details>
+  <summary><u><b>Scheduler</b></u>: <i>decides where pods run in the cluster</i></summary>
+    
+    the control plane component that assigns newly created Pods to Nodes based on resource availability, constraints, and scheduling policies.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Worker Node</b></u>: <i>executes what the control plane decides</i></summary>
   
     a node that runs the kubelet, the container runtime, and is responsible for running application Pods which have been scheduled by the control plane.
