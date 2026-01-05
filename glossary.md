@@ -27,6 +27,14 @@
 <br>
 
 <details>
+  <summary><u><b>ETCD</b></u>: <i>source of truth for the cluster</i></summary>
+    
+    a distributed key-value store that persistently stores all cluster state and configuration for the Kubernetes control plane.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Kubelet</b></u>: <i>local node agent that runs / monitors pods</i></summary>
     
     a per-node agent that runs and monitors assigned Pods, reconciling their state with PodSpecs received via streams from the API server.
