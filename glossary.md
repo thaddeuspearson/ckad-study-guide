@@ -35,6 +35,14 @@
 <br>
 
 <details>
+  <summary><u><b>Controller Manager</b></u>: <i>keeps desired state and actual state aligned</i></summary>
+    
+    the control plane component that runs controllers which continuously reconcile cluster resources to match their declared desired state.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ETCD</b></u>: <i>source of truth for the cluster</i></summary>
     
     a distributed key-value store that persistently stores all cluster state and configuration for the Kubernetes control plane.
