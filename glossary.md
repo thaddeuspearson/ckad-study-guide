@@ -3,6 +3,14 @@
 <br>
 
 <details>
+  <summary><u><b>API Server</b></u>: <i>the front door of the cluster</i></summary>
+    
+    the control plane component that exposes the Kubernetes API, validates and processes requests, and serves the authoritative cluster state to all components.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Cluster</b></u>: <i>desired state + control plane + nodes</i></summary>
   
     a group of nodes, managed by control plane components, where a desired state is maintained and workloads are run.
@@ -43,17 +51,17 @@
 <br>
 
 <details>
-  <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
-    
-    the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
+  <summary><u><b>Node</b></u>:<i> a physical or virtual machine registered with the cluster</i></summary>
+  
+    a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
 </details>
 
 <br>
 
 <details>
-  <summary><u><b>Node</b></u>:<i> a physical or virtual machine registered with the cluster</i></summary>
-  
-    a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
+  <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
+    
+    the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
 </details>
 
 <br>
