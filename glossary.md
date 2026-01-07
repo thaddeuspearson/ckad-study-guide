@@ -59,6 +59,14 @@
 <br>
 
 <details>
+  <summary><u><b>Namespace</b></u>: <i>the logical boundary for cluster resources</i></summary>
+    
+    a Kubernetes resource that provides a scope for names, access control, and resource isolation within a cluster.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Node</b></u>:<i> a physical or virtual machine registered with the cluster</i></summary>
   
     a Node is a physical or virtual machine registered with a Kubernetes cluster that runs the kubelet, container runtime (if the node runs pods) and other node components.
