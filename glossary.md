@@ -83,6 +83,14 @@
 <br>
 
 <details>
+  <summary><u><b>ReplicaSet</b></u>: <i>maintains pod count</i></summary>
+    
+    a controller that ensures a specified number of identical Pods are running at all times, creating or deleting Pods to match the desired replica count.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Scheduler</b></u>: <i>decides where pods run in the cluster</i></summary>
     
     the control plane component that assigns newly created Pods to Nodes based on resource availability, constraints, and scheduling policies.
