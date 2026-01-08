@@ -43,6 +43,14 @@
 <br>
 
 <details>
+  <summary><u><b>Deployment</b></u>: <i>manages pod rollouts</i></summary>
+    
+    a higher-level controller that manages ReplicaSets and provides declarative updates, scaling, and rollback of application versions.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ETCD</b></u>: <i>source of truth for the cluster</i></summary>
     
     a distributed key-value store that persistently stores all cluster state and configuration for the Kubernetes control plane.
