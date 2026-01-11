@@ -59,6 +59,14 @@
 <br>
 
 <details>
+  <summary><u><b>Ingress</b></u>: <i>HTTP entry point to the cluster</i></summary>
+    
+    aresource that defines HTTP and HTTPS routing rules to expose Services outside the cluster.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Job</b></u>: <i>executes one-off tasks</i></summary>
     
     a controller that creates and manages Pods to reliably execute a task, retrying failures until the specified completion criteria are met.
