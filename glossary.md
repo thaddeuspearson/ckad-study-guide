@@ -59,6 +59,14 @@
 <br>
 
 <details>
+  <summary><u><b>Job</b></u>: <i>executes one-off tasks</i></summary>
+    
+    a controller that creates and manages Pods to reliably execute a task, retrying failures until the specified completion criteria are met.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Kubelet</b></u>: <i>local node agent that runs / monitors pods</i></summary>
     
     a per-node agent that runs and monitors assigned Pods, reconciling their state with PodSpecs received via streams from the API server.
