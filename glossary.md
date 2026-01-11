@@ -115,6 +115,14 @@
 <br>
 
 <details>
+  <summary><u><b>Service</b></u>: <i>stable access to a set of pods</i></summary>
+    
+    A Kubernetes abstraction that provides a stable virtual IP and DNS name to access a dynamic set of Pods.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Worker Node</b></u>: <i>executes what the control plane decides</i></summary>
   
     a node that runs the kubelet, the container runtime, and is responsible for running application Pods which have been scheduled by the control plane.
