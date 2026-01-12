@@ -131,6 +131,14 @@
 <br>
 
 <details>
+  <summary><u><b>Secret</b></u>: <i>sensitive configuration data</i></summary>
+    
+    A resource used to store and provide sensitive data such as passwords, tokens, and keys to Pods.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Service</b></u>: <i>stable access to a set of pods</i></summary>
     
     A Kubernetes abstraction that provides a stable virtual IP and DNS name to access a dynamic set of Pods.
