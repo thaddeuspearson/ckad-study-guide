@@ -19,6 +19,14 @@
 <br>
 
 <details>
+  <summary><u><b>ConfigMap</b></u>: <i>non-secret application configuration</i></summary>
+    
+    a resource used to store and inject configuration data into Pods as environment variables or files.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Control Plane</b></u>: <i>the brains of the cluster</i></summary>
   
     runs the API server, scheduler, controller manager, etcd. These components maintain cluster state, schedule workloads, and ensure cluster resources match the desired state.
