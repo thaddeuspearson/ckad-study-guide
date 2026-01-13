@@ -115,6 +115,14 @@
 <br>
 
 <details>
+  <summary><u><b>PersistentVolumeClaim</b></u>: <i>request for storage</i></summary>
+    
+    a request for storage by a user or Pod that binds to a PersistentVolume.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
     
     the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
