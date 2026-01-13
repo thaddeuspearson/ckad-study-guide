@@ -107,6 +107,14 @@
 <br>
 
 <details>
+  <summary><u><b>PersistentVolume</b></u>: <i>cluster storage resource</i></summary>
+    
+    a allotment of storage provisioned for the cluster and managed independently of Pod lifecycles.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
     
     the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
