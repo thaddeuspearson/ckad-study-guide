@@ -51,6 +51,14 @@
 <br>
 
 <details>
+  <summary><u><b>DaemonSet</b></u>: <i>ensures exactly one Pod per node</i></summary>
+    
+    a controller that ensures one and only one copy of a Pod runs on each selected Node.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Deployment</b></u>: <i>manages pod rollouts</i></summary>
     
     a higher-level controller that manages ReplicaSets and provides declarative updates, scaling, and rollback of application versions.
