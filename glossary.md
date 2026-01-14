@@ -171,6 +171,14 @@
 <br>
 
 <details>
+  <summary><u><b>StatefulSet</b></u>: <i>stable pods with stable storage</i></summary>
+    
+    a controller that creates Pods with stable names, network identities, and persistent volumes, and manages their ordered deployment and scaling.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Volume</b></u>: <i>pod-level storage</i></summary>
     
     a directory mounted into a Pod that provides storage shared by its containers.
