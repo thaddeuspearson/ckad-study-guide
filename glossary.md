@@ -115,6 +115,14 @@
 <br>
 
 <details>
+  <summary><u><b>Label</b></u>: <i>resource metadata for selection</i></summary>
+    
+    a key-value pair attached to resources used for grouping, filtering, and selection.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Namespace</b></u>: <i>the logical boundary for cluster resources</i></summary>
     
     a Kubernetes resource that provides a scope for names, access control, and resource isolation within a cluster.
