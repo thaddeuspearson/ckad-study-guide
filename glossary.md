@@ -43,6 +43,14 @@
 <br>
 
 <details>
+  <summary><u><b>Controller</b></u>: <i>a reconciliation loop</i></summary>
+    
+    a control loop that continuously watches resource state and takes action to move the system toward the desired state.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>Controller Manager</b></u>: <i>keeps desired state and actual state aligned</i></summary>
     
     the control plane component that runs controllers which continuously reconcile cluster resources to match their declared desired state.
