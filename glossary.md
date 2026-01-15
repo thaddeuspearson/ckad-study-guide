@@ -51,6 +51,14 @@
 <br>
 
 <details>
+  <summary><u><b>CronJob</b></u>: <i>scheduled Jobs</i></summary>
+    
+    a controller that creates Jobs on a time-based schedule.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>DaemonSet</b></u>: <i>ensures exactly one Pod per node</i></summary>
     
     a controller that ensures one and only one copy of a Pod runs on each selected Node.
@@ -158,6 +166,14 @@
   <summary><u><b>Secret</b></u>: <i>sensitive configuration data</i></summary>
     
     a resource used to store and provide sensitive data such as passwords, tokens, and keys to Pods.
+</details>
+
+<br>
+
+<details>
+  <summary><u><b>Selector</b></u>: <i>label-based matching</i></summary>
+    
+    a label query that defines a set of Kubernetes resources based on their labels.
 </details>
 
 <br>
