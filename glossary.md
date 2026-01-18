@@ -27,6 +27,14 @@
 <br>
 
 <details>
+  <summary><u><b>ClusterRoleBinding</b></u>: <i>assigns cluster-wide permissions</i></summary>
+  
+  Grants a ClusterRole’s permissions to a user, group, or ServiceAccount across the entire cluster.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ConfigMap</b></u>: <i>non-secret application configuration</i></summary>
     
     a resource used to store and inject configuration data into Pods as environment variables or files.
