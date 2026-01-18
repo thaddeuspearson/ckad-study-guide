@@ -163,6 +163,14 @@
 <br>
 
 <details>
+  <summary><u><b>Role</b></u>: <i>namespace-scoped permissions</i></summary>
+  
+  Defines a set of allowed actions (verbs) on resources within a specific namespace.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ReplicaSet</b></u>: <i>maintains pod count</i></summary>
     
     a controller that ensures a specified number of identical Pods are running at all times, creating or deleting Pods to match the desired replica count.
