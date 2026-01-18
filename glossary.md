@@ -187,6 +187,14 @@
 <br>
 
 <details>
+  <summary><u><b>RoleBinding</b></u>: <i>assigns permissions in a namespace</i></summary>
+  
+  Grants a Role’s permissions to a user, group, or ServiceAccount within a specific namespace.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ReplicaSet</b></u>: <i>maintains pod count</i></summary>
     
     a controller that ensures a specified number of identical Pods are running at all times, creating or deleting Pods to match the desired replica count.
