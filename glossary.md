@@ -203,6 +203,14 @@
 <br>
 
 <details>
+  <summary><u><b>ServiceAccount</b></u>: <i>Pod identity within the cluster</i></summary>
+  
+  An identity associated with a Pod that provides credentials for authenticating to the Kubernetes API.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>StatefulSet</b></u>: <i>stable pods with stable storage</i></summary>
     
     a controller that creates Pods with stable names, network identities, and persistent volumes, and manages their ordered deployment and scaling.
