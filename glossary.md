@@ -19,6 +19,14 @@
 <br>
 
 <details>
+  <summary><u><b>ClusterRole</b></u>: <i>cluster-wide permissions</i></summary>
+  
+  Defines a set of allowed actions (verbs) on resources across the entire cluster or multiple namespaces.
+</details>
+
+<br>
+
+<details>
   <summary><u><b>ConfigMap</b></u>: <i>non-secret application configuration</i></summary>
     
     a resource used to store and inject configuration data into Pods as environment variables or files.
