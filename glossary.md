@@ -40,6 +40,7 @@
   <summary><u><b>ConfigMap</b></u>: <i>non-secret application configuration</i></summary>
     
     a resource used to store and inject configuration data into Pods as environment variables or files.
+[notes](/config-and-secrets/ConfigMap.md) | [docs](https://kubernetes.io/docs/concepts/configuration/configmap/)
 </details>
 
 <br>
@@ -221,6 +222,7 @@
   <summary><u><b>Secret</b></u>: <i>sensitive configuration data</i></summary>
     
     a resource used to store and provide sensitive data such as passwords, tokens, and keys to Pods.
+[notes](/config-and-secrets/Secret.md) | [docs](https://kubernetes.io/docs/concepts/configuration/secret/)
 </details>
 
 <br>
