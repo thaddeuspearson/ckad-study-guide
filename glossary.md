@@ -6,6 +6,7 @@
   <summary><u><b>API Server</b></u>: <i>the front door of the cluster</i></summary>
     
     the control plane component that exposes the Kubernetes API, validates and processes requests, and serves the authoritative cluster state to all components.
+[notes](/cluster-control/API-Server.md) | [docs](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 </details>
 
 <br>
@@ -14,6 +15,7 @@
   <summary><u><b>Cluster</b></u>: <i>desired state + control plane + nodes</i></summary>
   
     a group of nodes, managed by control plane components, where a desired state is maintained and workloads are run.
+   [notes](/cluster-control/Cluster.md) | [docs](https://kubernetes.io/docs/concepts/architecture/)
 </details>
 
 <br>
@@ -46,6 +48,7 @@
   <summary><u><b>Control Plane</b></u>: <i>the brains of the cluster</i></summary>
   
     runs the API server, scheduler, controller manager, etcd. These components maintain cluster state, schedule workloads, and ensure cluster resources match the desired state.
+[notes](/cluster-control/Control-Plane.md) | [docs](https://kubernetes.io/docs/concepts/overview/components/)
 </details>
 
 <br>
@@ -62,6 +65,7 @@
   <summary><u><b>Controller</b></u>: <i>a reconciliation loop</i></summary>
     
     a control loop that continuously watches resource state and takes action to move the system toward the desired state.
+[notes](/cluster-control/Controller.md) | [docs](https://kubernetes.io/docs/concepts/architecture/controller/)
 </details>
 
 <br>
@@ -70,6 +74,7 @@
   <summary><u><b>Controller Manager</b></u>: <i>keeps desired state and actual state aligned</i></summary>
     
     the control plane component that runs controllers which continuously reconcile cluster resources to match their declared desired state.
+[notes](/cluster-control/Controller-Manager.md) | [docs](https://kubernetes.io/docs/concepts/architecture/#kube-controller-manager)
 </details>
 
 <br>
@@ -102,6 +107,7 @@
   <summary><u><b>ETCD</b></u>: <i>source of truth for the cluster</i></summary>
     
     a distributed key-value store that persistently stores all cluster state and configuration for the Kubernetes control plane.
+[notes](/cluster-control/ETCD.md) | [docs](https://kubernetes.io/docs/concepts/architecture/#etcd)
 </details>
 
 <br>
@@ -206,6 +212,7 @@
   <summary><u><b>Scheduler</b></u>: <i>decides where pods run in the cluster</i></summary>
     
     the control plane component that assigns newly created Pods to Nodes based on resource availability, constraints, and scheduling policies.
+[notes](/cluster-control/Scheduler.mdluster-control) | [docs](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
 </details>
 
 <br>
