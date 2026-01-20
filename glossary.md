@@ -142,6 +142,7 @@
   <summary><u><b>Label</b></u>: <i>resource metadata for selection</i></summary>
     
     a key-value pair attached to resources used for grouping, filtering, and selection.
+[notes](/metadata-and-control/Label.md) | [docs](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
 </details>
 
 <br>
@@ -150,6 +151,7 @@
   <summary><u><b>Namespace</b></u>: <i>the logical boundary for cluster resources</i></summary>
     
     a Kubernetes resource that provides a scope for names, access control, and resource isolation within a cluster.
+[notes](/metadata-and-control/Namespace.md) | [docs](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 </details>
 
 <br>
@@ -232,6 +234,7 @@
   <summary><u><b>Selector</b></u>: <i>label-based matching</i></summary>
     
     a label query that defines a set of Kubernetes resources based on their labels.
+[notes](/metadata-and-control/Selector.md) | [docs](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
 </details>
 
 <br>
