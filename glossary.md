@@ -117,6 +117,7 @@
   <summary><u><b>Ingress</b></u>: <i>HTTP entry point to the cluster</i></summary>
     
     aresource that defines HTTP and HTTPS routing rules to expose Services outside the cluster.
+[notes](/networking/Ingress.md) | [docs](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 </details>
 
 <br>
@@ -239,6 +240,7 @@
   <summary><u><b>Service</b></u>: <i>stable access to a set of pods</i></summary>
     
     a Kubernetes abstraction that provides a stable virtual IP and DNS name to access a dynamic set of Pods.
+[notes](/networking/Service.md) | [docs](https://kubernetes.io/docs/concepts/services-networking/service/)
 </details>
 
 <br>
