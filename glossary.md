@@ -168,6 +168,7 @@
   <summary><u><b>PersistentVolume</b></u>: <i>cluster storage resource</i></summary>
     
     a allotment of storage provisioned for the cluster and managed independently of Pod lifecycles.
+[notes](/storage/PersistentVolume.md) | [docs](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 </details>
 
 <br>
@@ -176,6 +177,7 @@
   <summary><u><b>PersistentVolumeClaim</b></u>: <i>request for storage</i></summary>
     
     a request for storage by a user or Pod that binds to a PersistentVolume.
+[notes]() | docs(https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 </details>
 
 <br>
@@ -268,6 +270,7 @@
   <summary><u><b>Volume</b></u>: <i>pod-level storage</i></summary>
     
     a directory mounted into a Pod that provides storage shared by its containers.
+[notes](/storage/Volume.md) | [docs](https://kubernetes.io/docs/concepts/storage/volumes/)
 </details>
 
 <br>
