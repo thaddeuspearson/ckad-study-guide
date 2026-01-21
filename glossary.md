@@ -186,6 +186,7 @@
   <summary><u><b>Pod</b></u>: <i>the atomic unit Kubernetes schedules</i></summary>
     
     the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking, storage, and a lifecycle.
+[notes](/workloads/Pod.md) | [docs](https://kubernetes.io/docs/concepts/workloads/pods/)
 </details>
 
 <br>
