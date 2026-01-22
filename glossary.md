@@ -211,6 +211,7 @@
   <summary><u><b>ReplicaSet</b></u>: <i>maintains pod count</i></summary>
     
     a controller that ensures a specified number of identical Pods are running at all times, creating or deleting Pods to match the desired replica count.
+[notes](/workloads/ReplicaSet.md) | [docs](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 </details>
 
 <br>
