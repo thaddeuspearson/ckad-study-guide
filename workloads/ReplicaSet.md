@@ -32,7 +32,7 @@ spec:
                   image: container-image
     replicas: 3
     selector:
-      matchLabel:
+      matchLabels:
         key: value
 
 ```
