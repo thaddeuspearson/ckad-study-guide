@@ -100,6 +100,7 @@
   <summary><u><b>Deployment</b></u>: <i>manages pod rollouts</i></summary>
     
     a higher-level controller that manages ReplicaSets and provides declarative updates, scaling, and rollback of application versions.
+[notes](/workloads/Deployment.md) | [docs](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 </details>
 
 <br>
