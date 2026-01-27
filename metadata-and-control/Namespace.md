@@ -1,13 +1,13 @@
 # Namespaces
 
 ## General Notes
-- Namespaces automatically when kubernetes is first set up:
+- namespaces automatically when kubernetes is first set up:
     - `default`
     - `kube-system`
     - `kube-public`
-- Primarilly used for Isolation _ex: dev/prod_
-- Each namespace can have its own policies
-- Resource quotas can be assigned to each namespace
+- primarilly used for isolation _ex: dev/prod_
+- each namespace can have its own policies
+- resource quotas can be assigned to each namespace
 - connect to services within the same namespace with the resourcde name _ex: db-service_
 - connect to services in other namespaces appending the namespace to the name _ex: db-service.dev.svc.cluster.local_
 
@@ -41,7 +41,7 @@ kubectl config set-context $(kubectl config current-context) --namespace=<desire
 kubectl get pods --all-namespaces
 ```
 
-### add namespace definiton to resource YAML
+### add namespace definition to resource YAML
 ```
 apiVersion: v1
 kind: Pod
