@@ -21,7 +21,7 @@ combine the two above with redirection to rapidly create templates:
 kubectl create deployment redis --image=redis --dry-run=client -o yaml > redis-definition.yaml
 ```
 
-### kubectl api-resources
+### api-resources
 
 use `kubectl api-resources` to retrieve a detailed list of kubernetes resources and applicable information:
 
@@ -34,5 +34,55 @@ endpoints                   ep           v1                  true         Endpoi
 events                      ev           v1                  true         Event
 limitranges                 limits       v1                  true         LimitRange
 namespaces                  ns           v1                  false        Namespace
+...
+```
+
+### explain
+
+use `kubectl explain <resource[.field]>` to list properties and subproperties of each field of the given resource. `kubectl explain <resource> --recursive` will output a list of all fields and subfields of the given resource:
+
+
+ex: `kubectl explain pods.spec`
+```
+KIND:       Pod
+VERSION:    v1
+
+FIELD: spec <PodSpec>
+
+
+DESCRIPTION:
+    Specification of the desired behavior of the pod. More info:
+    https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
+    PodSpec is a description of a pod.
+    
+FIELDS:
+  activeDeadlineSeconds <integer>
+    Optional duration in seconds the pod may be active on the node relative to
+    StartTime before the system will actively try to mark it failed and kill
+    associated containers. Value must be a positive integer.
+...
+```
+
+ex: `kubectl explain pods --recursive`
+```
+KIND:       Pod
+VERSION:    v1
+
+DESCRIPTION:
+    Pod is a collection of containers that can run on a host. This resource is
+    created by clients and scheduled onto hosts.
+    
+FIELDS:
+  apiVersion    <string>
+  kind  <string>
+  metadata      <ObjectMeta>
+    annotations <map[string]string>
+    creationTimestamp   <string>
+    deletionGracePeriodSeconds  <integer>
+    deletionTimestamp   <string>
+    finalizers  <[]string>
+    generateName        <string>
+    generation  <integer>
+    labels      <map[string]string>
 ...
 ```
