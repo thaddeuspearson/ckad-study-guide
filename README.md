@@ -86,3 +86,10 @@ FIELDS:
     labels      <map[string]string>
 ...
 ```
+
+### Gotchas
+CMD line args in Docker vs Kubernetes
+| Docker Instruction | Kubenetes Field |
+|---------------------|------------------|
+|`ENTRYPOINT` | `command` |
+|`CMD` | `args` |
