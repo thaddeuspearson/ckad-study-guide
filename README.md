@@ -87,6 +87,14 @@ FIELDS:
 ...
 ```
 
+### Imperative Custom CMD args
+
+use the `--command -- <arg1> <arg2> ... <argN>` to add custom CMD args
+
+```
+kubectl run example-pod --image=example-pod-image  -- example arg 
+```
+
 ### Gotchas
 CMD line args in Docker vs Kubernetes
 | Docker Instruction | Kubenetes Field |
