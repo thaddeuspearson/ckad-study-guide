@@ -3,6 +3,8 @@
 ## General Notes
 - secrets are stored as key/value pairs
 - values are base64 encoded
+- encrypting secrets at rest is highly recommended:
+    - [docs](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)
 
 <br>
 
