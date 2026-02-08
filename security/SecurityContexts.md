@@ -35,7 +35,7 @@ spec:
       securityContext:
         runAsUser: 1000
         capabilities:
-            ["MAC_ADMIN"]
+          add: ["MAC_ADMIN"]
 ```
 *note*: capabilites are only available at the container level
 <br>
