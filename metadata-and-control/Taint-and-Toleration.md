@@ -34,7 +34,12 @@ spec:
 
 ### Create a Taint
 ```
-kubectl taint nodes <node-name> key=value:taint-effect
+kubectl taint node <node-name> key=value:taint-effect
 ```
-*note:* taint-effect is what happend when a taint is not tolerated
+
+### Remove a Taint
+```
+kubectl taint node <node-name> key=value:taint-effect-
+```
+*note:* `taint-effect` is what happend when a taint is not tolerated
 <br>
