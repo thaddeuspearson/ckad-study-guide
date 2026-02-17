@@ -2,6 +2,8 @@
 
 ## General Notes
 
+- key:value pairs that can be assigned to kubernetes objects
+
 <br>
 
 ## YAML Template
@@ -10,4 +12,8 @@
 
 ## Commands
 
+### Create a label
+```
+kubectl label <object> <key>=<value>
+```
 <br>
