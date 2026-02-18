@@ -12,7 +12,12 @@
     - usually not multiple containers of the same kind
     - helper containers _(processing data, file uploads etc)_
     - share the same network space (can use `localhost` to communicate) and storage space
-
+- Lifecycle/kubectl Status:
+    - `Pending` - Scheduler looks for a node to place the pod
+    - `ContainerCreating` - images are pulled and container starts
+    - `Running`
+    - `Succeeded` or `Failed` - based on exit status of 0(success) or 1 (failure)
+    - `Unknown` - Node lost communication with the Pod
 <br>
 
 ## YAML Template
