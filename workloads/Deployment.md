@@ -2,7 +2,12 @@
 
 ## General Notes
 - provides the capability to upgrade the underlying instances seemlessly
-- Deployments automatically create a ReplicaSetla
+- Deployments automatically create a ReplicaSet
+
+### Rolling Updates and Rollbacks
+- enables update and undo functionality
+- `Rolling Update` - creates a new ReplicaSet and gradually spins up the new pod version while simultaneously spinning down the old pod version in the existing ReplicaSet. This is the default
+- `Recreate` - spins down all old pods in the existing ReplicaSet, and spins up new pods in the new ReplicaSet
 
 <br>
 
@@ -50,5 +55,17 @@ kubectl create <deployment-name> --image=<image-name> --replicas=<num-of-replica
 ### get Deployments:
 ```
 kubectl get deployments
+```
+
+### update a Deployment:
+```
+kubectl apply -f <deployment-definition.yaml>
+```
+
+### status / history of Deployments:
+```
+kubectl rollout status deployment <deployment-name>
+
+kubectl rollout history deployment <deployment-name>
 ```
 <br>
