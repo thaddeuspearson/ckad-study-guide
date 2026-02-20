@@ -68,4 +68,9 @@ kubectl rollout status deployment <deployment-name>
 
 kubectl rollout history deployment <deployment-name>
 ```
+
+### scale a Deployment
+```
+kubectl scale deployment --replicas=<desired> <deployment-name>
+```
 <br>
