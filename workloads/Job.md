@@ -2,7 +2,6 @@
 
 ## General Notes
 - designed for workloads that live for a short period of time _(ex: batch processing, data analysis, file generation etc)_
-- Jobs will continue to restart, as K8s defaults `restartPolicy` to Always. in order to run the job once, set `restartPolicy` to Never
 - to run multiple pods of the same job, use `completions`
 - to run multiple jobs in parallel, instead of the sequential default, use `parallelism` and set the number to the desired number of jobs allowed to be run in parallel.
 
