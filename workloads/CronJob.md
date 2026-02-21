@@ -1,7 +1,7 @@
 # CronJob
 
 ## General Notes
-- a Job thata can be scheduled
+- a Job that can be scheduled
 - takes a cron string to specify when to schedule the job
 <br>
 
@@ -31,7 +31,7 @@ _note: there are 3 `spec` sections in the template_
 
 ### create CronJob
 ```
-kubectl cfreate -f cron-job-definition.yaml
+kubectl create -f cron-job-definition.yaml
 ```
 
 ### get CronJob
