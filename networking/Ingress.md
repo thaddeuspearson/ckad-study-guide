@@ -105,6 +105,7 @@ spec:
   - http:
       paths:
       - path: /path-name-1
+        pathType: Prefix
         backend:
           service:
             name: backend-app-service-name
@@ -113,6 +114,7 @@ spec:
     http:
       paths:
       - path: /path-name-2
+        pathType: Prefix
         backend:
           service:
             name: backend-app-service-name
