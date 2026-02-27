@@ -4,6 +4,10 @@
 - A cluster-wide pool of storage
 - backing storage can be created on the host, or a distributed storage solution (ex: AWS EBS)
 - Pods make Persistent Volume Claims (PVC) on a PV
+- accessModes
+    - ReadOnlyMany
+    - ReadWriteOnce
+    - ReadWriteMany
 <br>
 
 ## YAML Template
