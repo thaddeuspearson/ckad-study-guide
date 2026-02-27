@@ -26,9 +26,9 @@ spec:
       name: data-volume
   volumes:
   - name: data-volume
-  hostPath:
-    path: /data
-    type: Directory
+    hostPath:
+      path: /data
+      type: Directory
 ```
 
 <br>
