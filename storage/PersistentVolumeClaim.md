@@ -10,6 +10,7 @@
 
 ## YAML Template
 
+### PVC Definition
 ```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -21,6 +22,26 @@ spec:
   resources:
     requests:
       storage: 500Mi
+```
+
+### Mounting PVCto a Pod
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-name
+spec:
+  containers:
+    - name: container-name
+      image: nginx
+      volumeMounts:
+      - mountPath: "/var/www/html"
+        name: volume-name
+  volumes:
+    - name: volume-name
+      persistentVolumeClaim:
+        claimName: myclaim
 ```
 
 <br>
