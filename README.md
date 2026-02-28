@@ -21,6 +21,8 @@ combine the two above with redirection to rapidly create templates:
 kubectl create deployment redis --image=redis --dry-run=client -o yaml > redis-definition.yaml
 ```
 
+<br>
+
 ### api-resources
 
 use `kubectl api-resources` to retrieve a detailed list of kubernetes resources and applicable information:
@@ -36,6 +38,8 @@ limitranges                 limits       v1                  true         LimitR
 namespaces                  ns           v1                  false        Namespace
 ...
 ```
+
+<br>
 
 ### explain
 
@@ -86,6 +90,7 @@ FIELDS:
     labels      <map[string]string>
 ...
 ```
+<br>
 
 ### Imperative Custom CMD args
 
@@ -95,9 +100,20 @@ use the `--command -- <arg1> <arg2> ... <argN>` to add custom CMD args
 kubectl run example-pod --image=example-pod-image  -- example arg 
 ```
 
+<br>
+
 ### Gotchas
 CMD line args in Docker vs Kubernetes
 | Docker Instruction | Kubenetes Field |
 |---------------------|------------------|
 |`ENTRYPOINT` | `command` |
 |`CMD` | `args` |
+
+### Checking Access
+```
+kubectl auth can-i <action> <object> --as <username> --namespace
+```
+ex:
+```
+k auth can-i delete nodes --as dev-user --namespace default
+```
