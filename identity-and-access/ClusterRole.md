@@ -1,13 +1,29 @@
-#
+# ClusterRole
 
 ## General Notes
+- cluster-scoped roles for RBAC
 
 <br>
 
 ## YAML Template
 
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: cluster-administrator
+rules:
+- apiGroup: [""]
+  resources: ["nodes"]
+  verbs: ["list", "get", "create", "delete"]
+```
 <br>
 
 ## Commands
+
+### create clusterRole
+```
+kubectl create -f cluster-admin-role.yaml
+```
 
 <br>
